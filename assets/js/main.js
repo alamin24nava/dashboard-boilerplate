@@ -62,3 +62,29 @@ $('.theme-select-input').each(function(){
     });
 
 });
+
+// checkbox Disabled
+$(function() {
+    $("#flexCheckDisabled").click(function() {
+        if ($(this).is(":checked")) {
+            $(".form-check-disabled .form-floating").show();
+        } else {
+            $(".form-check-disabled .form-floating").hide();
+        }
+    });
+});
+// checkbox Enabled
+// $(function() {
+//     $("#flexCheckEnabled").click(function() {
+//         let enableMaster = $(".form-check");
+//         if ($(this).is(":checked")) {
+//             $(".form-floating").show();
+//             enableMaster.addClass('form-check-enabled');
+//             enableMaster.removeClass('form-check-disabled');
+//         } else {
+//             $(".form-floating").hide();
+//             enableMaster.addClass('form-check-disabled');
+//             enableMaster.removeClass('form-check-enabled');
+//         }
+//     });
+// });
