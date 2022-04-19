@@ -175,6 +175,22 @@ img {
 .theme-search-box-wrap .form-control {
   padding-left: 34px;
 }
+/* add another field */
+.add-another-field-wrap, .remove{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.dynamic-another-field {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.remove-field,
+.add-more-field {
+  width: 150px;
+  margin-left: auto;
+}
 /* border-radius */
 
 .border-left-0 {

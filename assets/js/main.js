@@ -88,3 +88,26 @@ $(function() {
 //         }
 //     });
 // });
+
+
+
+$('.add-more-field').click(function() {
+    $('.add-another-field-wrap').clone().appendTo('.dynamic-another-field');
+    $('.dynamic-another-field .add-another-field-wrap').addClass('single remove');
+    $('.single .add-more-field').remove();
+    $('.single').append('<a href="#" class="remove-field btn-remove-customer">Remove Item</a>');
+    $('.dynamic-another-field > .single').attr("class", "remove");
+    
+    $('.dynamic-another-field input').each(function() {
+      var count = 0;
+      var fieldname = $(this).attr("name");
+      $(this).attr('name', fieldname + count );
+      count++;
+    });
+  
+  });
+  
+  $(document).on('click', '.remove-field', function(e) {
+    $(this).parent('.remove').remove();
+    e.preventDefault();
+  });
