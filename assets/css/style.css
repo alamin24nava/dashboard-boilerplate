@@ -113,7 +113,7 @@ img {
   box-shadow: none;
 }
 .form-control::placeholder {
-  font-family: var(--Satoshi);
+  font-family: var(--Inter);
   color: var(--bs-7c7c7c);
   font-size: var(--fs-14);
   line-height: var(--lh-14);
@@ -156,6 +156,24 @@ img {
 .form-control:checked {
   background-color: var(--bs-000000);
   border-color: var(--bs-000000);
+}
+/* theme search box */
+.theme-search-box-wrap{
+  position: relative;
+}
+.theme-search-box-wrap .theme-search-box-icon {
+  position: absolute;
+  z-index: 2;
+  color: #aaa;
+  cursor: pointer;
+  display: flex;
+  top: 50%;
+  left: 12px;
+  margin-top: -8px;
+}
+
+.theme-search-box-wrap .form-control {
+  padding-left: 34px;
 }
 /* border-radius */
 
