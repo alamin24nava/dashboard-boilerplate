@@ -18,8 +18,25 @@
 
 <body>
     <!-- Page Header -->
-    <header class="prifix-header-template">
-        <div class="header-template-left">Running.....</div>
+    <header class="theme-header-template">
+        <div class="header-template-left gap-4">
+            <div class="three-dots d-xl-none" id="toggler">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                    <line x1="3" y1="12" x2="21" y2="12" />
+                    <line x1="3" y1="6" x2="21" y2="6" />
+                    <line x1="3" y1="18" x2="21" y2="18" />
+                </svg>
+            </div>
+            <div class="theme-search-box-wrap">
+                <span class="theme-search-box-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </span>
+                <input type="text" class="form-control" placeholder="Search anything">
+            </div>
+        </div>
         <div class="header-template-right">
             <!-- user notifications -->
             <div class="user-notification-wrap">
@@ -51,7 +68,7 @@
         </div>
     </header>
     <!-- Page aside -->
-    <aside class="prifix-sidenav-wrap">
+    <aside class="theme-sidenav-wrap">
         <div class="prifix-logo-wrapper">
             <div class="d-flex justify-content-between position-relative">
                 <a href="#" class="company-home-link">
@@ -99,7 +116,15 @@
         </div>
     </aside>
     <!-- Page Main content -->
-    <div class="prifix-page-content pt-3">
+    <div class="theme-page-content pt-3">
+        <!-- theme Switches box -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="section-title pb-3"> Switches</h3>
+            <div class="form-check form-switch gap-3 d-flex align-items-center cursor-pointer">
+                <input class="form-check-input" type="checkbox" id="prifixChecked">
+                <label class="form-check-label" for="prifixChecked">Default switch checkbox input</label>
+            </div>
+        </div>
         <!-- theme add anathor field -->
         <div class="p-4 bg-white shadow my-3">
             <h3 class="section-title pb-3"> Add input field</h3>
@@ -120,8 +145,8 @@
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled">
                     <label class="form-check-label form-label" for="flexCheckDisabled">Disabled checkbox</label>
                 </div>
-                <div class="form-floating mt-2">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" cols="30" rows="10"></textarea>
+                <div class="form-floating mt-2 theme-transition">
+                    <textarea class="form-control theme-transition" placeholder="Leave a comment here" id="floatingTextarea2" cols="30" rows="10"></textarea>
                 </div>
             </div>
             <h4 class="section-sub-title pb-2">Enabled checkbox</h4>
@@ -130,7 +155,7 @@
                     <input class="form-check-input" type="checkbox" value="" id="flexCheckEnaabled">
                     <label class="form-check-label form-label" for="flexCheckDisabled">Disabled checkbox</label>
                 </div>
-                <div class="form-floating mt-2">
+                <div class="form-floating mt-2 theme-transition">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" cols="30" rows="10"></textarea>
                 </div>
             </div>

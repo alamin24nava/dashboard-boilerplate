@@ -1,12 +1,8 @@
 // nav bar show & hidden
-$(document).ready(function() {
-    $('#toggler').click(function() {
-        $(".prifix-sidenav-wrap").addClass("aside-hide");
-        $(".prifix-page-content, .prifix-header-template").addClass("prifix-full-screen-expanded");
-    })
-});
-
-
+$('#toggler').click(function() {
+    $(".theme-sidenav-wrap").toggleClass("aside-hide");
+    $(".theme-page-content, .theme-header-template").toggleClass("theme-full-screen-expanded");
+})
 // nav Link active
 const activeLink = document.querySelectorAll('.sidenav-link')
 
@@ -17,6 +13,8 @@ function navActiveLink() {
     }
 }
 activeLink.forEach(i => i.addEventListener('click', navActiveLink));
+
+
 // theme input select options
 $('.theme-select-input').each(function(){
     var $this = $(this), numberOfOptions = $(this).children('option').length;
@@ -89,8 +87,7 @@ $(function() {
 //     });
 // });
 
-
-
+// add more field
 $('.add-more-field').click(function() {
     $('.add-another-field-wrap').clone().appendTo('.dynamic-another-field');
     $('.dynamic-another-field .add-another-field-wrap').addClass('single remove');
