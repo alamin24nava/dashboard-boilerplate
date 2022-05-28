@@ -15,9 +15,9 @@
 :root {
     /* Color variables */
     --bs-0d6efd: #0d6efd;
+    --bs-7a7a7a: #7a7a7a;
     --bs-000000: #000000;
     --bs-ffffff: #ffffff;
-    --bs-7a7a7a: #7a7a7a;
     --bs-335df2: #335df2;
     --bs-272541: #272541;
     --bs-5f666f: #5f666f;
@@ -30,6 +30,7 @@
     --bs-e0e0f2: #e0e0f2;
     --bs-7c7c7c: #7c7c7c;
     --bs-ff5b5b: #ff5b5b;
+    --bg-d8a200: #d8a200;
     /* theme font family */
     --Open-sans: "Open Sans", sans-serif;
     --Poppins: "Poppins", sans-serif;
@@ -118,6 +119,33 @@ img {
 }
 
 
+/* theme Common Fonts Size */
+
+.fs-1 {
+    font-size: var(--fs-12) !important;
+}
+
+.fs-2 {
+    font-size: var(--fs-14) !important;
+}
+
+.fs-3 {
+    font-size: var(--fs-16) !important;
+}
+
+.fs-4 {
+    font-size: var(--fs-18) !important;
+}
+
+.fs-5 {
+    font-size: var(--fs-24) !important;
+}
+
+.fs-6 {
+    font-size: var(--fs-32) !important;
+}
+
+
 /* theme common shadow */
 
 .theme-transition {
@@ -126,6 +154,99 @@ img {
 
 .shadow {
     box-shadow: var(--common-box-shadow) !important;
+}
+
+
+/* theme background Colors */
+
+.bg-primary {
+    background: var(--bs-0d6efd) !important;
+}
+
+.bg-secondary {
+    background: var(--bs-7a7a7a) !important;
+}
+
+.bg-success {
+    background: var(--bs-27ae60) !important;
+}
+
+.bg-danger {
+    background: var(--bs-ff5b5b) !important;
+}
+
+.bg-warning {
+    background: var(--bg-d8a200) !important;
+}
+
+.bg-info {
+    background: var(--bs-21759b) !important;
+}
+
+.bg-light {
+    background: var(--bs-f5f7f9) !important;
+}
+
+.bg-dark {
+    background: var(--bs-000000) !important;
+}
+
+.bg-body {
+    background: var(--bs-ffffff) !important;
+}
+
+
+/* theme common Colors */
+
+.text-primary {
+    color: var(--bs-0d6efd) !important;
+}
+
+.text-secondary {
+    color: var(--bs-7a7a7a) !important;
+}
+
+.text-success {
+    color: var(--bs-27ae60) !important;
+}
+
+.text-danger {
+    color: var(--bs-ff5b5b) !important;
+}
+
+.text-warning {
+    color: var(--d8a200) !important;
+}
+
+.text-info {
+    color: var(--bs-21759b) !important;
+}
+
+.text-light {
+    color: var(--bs-f5f7f9) !important;
+}
+
+.text-dark {
+    color: var(--bs-000000) !important;
+}
+
+.text-body {
+    color: var(--bs-ffffff) !important;
+}
+
+.text-muted {
+    color: var(--bs-7a7a7a) !important;
+}
+
+
+/* theme badge  */
+
+.badge {
+    padding: 8px 12px;
+    font-size: var(--fs-12);
+    font-weight: var(--fw-600);
+    color: var(--bs-ffffff);
+    border-radius: 4px;
 }
 
 
@@ -347,22 +468,11 @@ img {
 /* theme button */
 
 .btn {
-    display: inline-block;
-    font-weight: var(--fw-600);
-    line-height: 1.5;
+    font-weight: var(--fw-500);
+    line-height: var(--lh-16);
     color: var(--bs-292e37);
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
     padding: 12px 30px;
-    font-size: var(--first-paragraph-size);
-    line-height: 24px;
+    font-size: var(--fs-16);
     font-family: var(--Poppins);
     border-radius: 12.3457px;
     letter-spacing: 0.015em;
@@ -392,9 +502,9 @@ img {
 /* theme secondary button */
 
 .btn-secondary {
-    background: #b3bfb8;
+    background: var(--bs-7a7a7a);
     color: #ffffff;
-    border-color: #b3bfb8;
+    border-color: var(--bs-7a7a7a);
 }
 
 .btn-secondary:hover {
