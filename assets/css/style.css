@@ -535,6 +535,7 @@ img {
 .usewp-pagination-link:focus,
 .form-check-input:focus,
 .btn-check:focus+.btn,
+.accordion-button:focus,
 .btn.active,
 .btn.active:focus,
 .btn.focus,
@@ -544,6 +545,7 @@ img {
 .btn:hover {
     outline: 0;
     box-shadow: none;
+    border-color: transparent;
 }
 
 
@@ -826,6 +828,16 @@ img {
     height: 28px;
     border-radius: 4px;
 }
+/* ====== ACCORDION STYLE START ====== */
+.accordion-button::after {
+    background-image: url("../images/plus.svg");
+    transition: 0.4s;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/minus.svg");
+    transform: rotate(0deg);
+}
+/* ====== ACCORDION STYLE END ====== */
 
 /* theme Common gap */
 
@@ -1299,16 +1311,6 @@ img {
     align-items: center;
     column-gap: 8px;
     position: relative;
-}
-
-.notification-dropdown-menu,
-.user-dropdown-menu {
-    transform: translate(-26px, 55px) !important;
-    -webkit-transform: translate(-26px, 55px) !important;
-    -moz-transform: translate(-26px, 55px) !important;
-    -ms-transform: translate(-26px, 55px) !important;
-    -o-transform: translate(-26px, 55px) !important;
-    padding: 0;
 }
 
 .user-dropdown-toggle::after {
