@@ -23,8 +23,8 @@
          /* fonts size with line height */
         --fs-32: 28px;
         --fs-24: 22px;
-        --lh-32: 42px;
-        --lh-24: 33px;
+        --lh-72: 42px;
+        --lh-36: 33px;
      }
      .prifix-sidenav-wrap {
         transform: translateX(-100%);
@@ -47,9 +47,9 @@
         --fs-32: 24px;
         --fs-24: 20px;
         --fs-16: 14px;
-        --lh-32: 33px;
-        --lh-24: 30px;
-        --lh-16: 21px;
+        --lh-72: 33px;
+        --lh-36: 30px;
+        --lh-36: 21px;
     }
 } 
 /* X-Small devices (portrait phones, less than 576px) */

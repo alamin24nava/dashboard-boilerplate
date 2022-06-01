@@ -117,6 +117,15 @@
     </aside>
     <!-- Page Main content -->
     <div class="theme-page-content pt-3">
+        <!-- theme Border -->
+        <div class="p-4 bg-white shadow my-3">
+            <h3 class="section-title pb-3">Border</h3>
+            <div class="d-flex gap-2">
+                <div style="width: 120px; height:80px" class="border border-primary rounded "></div>
+                <div style="width: 120px; height:80px" class="border border-info rounded rounded-3"></div>
+                <div style="width: 120px; height:80px" class="border border-info rounded rounded-0"></div>
+            </div>
+        </div>
         <!-- theme Switches box -->
         <div class="p-4 bg-white shadow my-3">
             <h3 class="section-title pb-3"> Switches</h3>
@@ -230,45 +239,130 @@
             <!-- theme button related style -->
             <h3 class="section-title pb-3">Normal Button</h3>
             <div class="d-lg-flex gap-4 pb-5">
-                <button class="btn btn-primary">Primary</button>
-                <button class="btn btn-secondary">Secondary</button>
-                <button class="btn btn-success">Success</button>
-                <button class="btn btn-danger"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
-                        <polyline points="3 6 5 6 21 6" />
-                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
-                        <line x1="10" y1="11" x2="10" y2="17" />
-                        <line x1="14" y1="11" x2="14" y2="17" />
-                    </svg>Danger</button>
-                <button type="button" class="btn btn-link">Link</button>
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+                <button type="button" class="btn btn-link p-0 text-decoration-underline">Link</button>
             </div>
             <h3 class="section-title pb-3">Outline Button</h3>
             <div class="d-lg-flex gap-4 pb-5">
-                <button class="btn btn-outline-primary">Outline primary</button>
-                <button class="btn btn-outline-secondary">Outline secondary</button>
-                <button class="btn btn-outline-success">Outline success</button>
-                <button class="btn btn-outline-danger">Outline success</button>
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                <button type="button" class="btn btn-outline-success">Success</button>
+                <button type="button" class="btn btn-outline-danger">Danger</button>
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+                <button type="button" class="btn btn-outline-info">Info</button>
+                <button type="button" class="btn btn-outline-light">Light</button>
+                <button type="button" class="btn btn-outline-dark">Dark</button>
             </div>
-            <h3 class="section-title pb-3">Button with icon</h3>
-            <div class="d-lg-flex gap-3">
-                <button class="btn btn-icon btn-outline-primary-icon">
+            <h3 class="section-title pb-3">Button icon</h3>
+            <div class="d-lg-flex gap-3 pb-4">
+                <button class="btn btn-icon btn-outline-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
                         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                         <circle cx="12" cy="12" r="3" />
                     </svg>
                 </button>
-                <button class="btn btn-icon btn-outline-secondary-icon">
+                <button class="btn btn-icon btn-outline-secondary">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
                         <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
                         <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
                     </svg>
                 </button>
-                <button class="btn btn-icon btn-outline-danger-icon">
+                <button class="btn btn-icon btn-outline-danger">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
                         <polyline points="3 6 5 6 21 6" />
                         <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
                         <line x1="10" y1="11" x2="10" y2="17" />
                         <line x1="14" y1="11" x2="14" y2="17" />
                     </svg>
+                </button>
+                <button class="btn btn-icon btn-outline-warning">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                        <line x1="12" y1="9" x2="12" y2="13" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                    </svg>
+                </button>
+                <button class="btn btn-icon btn-outline-success">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                </button>
+                <button class="btn btn-icon btn-outline-info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="16" x2="12" y2="12" />
+                        <line x1="12" y1="8" x2="12.01" y2="8" />
+                    </svg>
+                </button>
+                <button class="btn btn-icon btn-outline-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database">
+                        <ellipse cx="12" cy="5" rx="9" ry="3" />
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                    </svg>
+                </button>
+            </div>
+            <h3 class="section-title pb-3">Button Text with icon</h3>
+            <div class="d-lg-flex gap-3">
+                <button class="btn btn-outline-primary d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                    <span>View</span>
+                </button>
+                <button class="btn btn-outline-secondary d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
+                        <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                    <span>Edit</span>
+                </button>
+                <button class="btn btn-outline-danger d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
+                        <polyline points="3 6 5 6 21 6" />
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+                        <line x1="10" y1="11" x2="10" y2="17" />
+                        <line x1="14" y1="11" x2="14" y2="17" />
+                    </svg>
+                    <span>Delete</span>
+                </button>
+                <button class="btn btn-outline-warning d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                        <line x1="12" y1="9" x2="12" y2="13" />
+                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                    </svg>
+                    <span>Warning</span>
+                </button>
+                <button class="btn btn-outline-success d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check">
+                        <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    <span>Sucess</span>
+                </button>
+                <button class="btn btn-outline-info d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="16" x2="12" y2="12" />
+                        <line x1="12" y1="8" x2="12.01" y2="8" />
+                    </svg>
+                    <span>Info</span>
+                </button>
+                <button class="btn btn-outline-dark d-flex align-items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-database">
+                        <ellipse cx="12" cy="5" rx="9" ry="3" />
+                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                    </svg>
+                    <span>Dark</span>
                 </button>
             </div>
         </div>
@@ -298,19 +392,19 @@
                             <td class="theme-td-styled table-four-col">Executive Chef Marina Bay Sands</td>
                             <td class="table-five-col">
                                 <div class="d-flex gap-3">
-                                    <button class="btn btn-icon btn-outline-primary-icon">
+                                    <button class="btn btn-icon btn-outline-primary">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
                                             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg>
                                     </button>
-                                    <button class="btn btn-icon btn-outline-secondary-icon">
+                                    <button class="btn btn-icon btn-outline-secondary">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
                                             <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
                                             <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
                                         </svg>
                                     </button>
-                                    <button class="btn btn-icon btn-outline-danger-icon">
+                                    <button class="btn btn-icon btn-outline-danger">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
                                             <polyline points="3 6 5 6 21 6" />
                                             <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
@@ -330,19 +424,19 @@
                             <td class="theme-td-styled table-four-col">Los Angeles, California,United States</td>
                             <td class="table-five-col">
                                 <div class="d-flex gap-3">
-                                    <button class="btn btn-icon btn-outline-primary-icon">
+                                    <button class="btn btn-icon btn-outline-primary">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
                                             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg>
                                     </button>
-                                    <button class="btn btn-icon btn-outline-secondary-icon">
+                                    <button class="btn btn-icon btn-outline-secondary">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
                                             <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
                                             <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
                                         </svg>
                                     </button>
-                                    <button class="btn btn-icon btn-outline-danger-icon">
+                                    <button class="btn btn-icon btn-outline-danger">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
                                             <polyline points="3 6 5 6 21 6" />
                                             <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
@@ -362,19 +456,19 @@
                             <td class="theme-td-styled table-four-col">Chef Marina Bay Sands</td>
                             <td class="table-five-col">
                                 <div class="d-flex gap-3">
-                                    <button class="btn btn-icon btn-outline-primary-icon">
+                                    <button class="btn btn-icon btn-outline-primary">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye">
                                             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
                                             <circle cx="12" cy="12" r="3" />
                                         </svg>
                                     </button>
-                                    <button class="btn btn-icon btn-outline-secondary-icon">
+                                    <button class="btn btn-icon btn-outline-secondary">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit">
                                             <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
                                             <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
                                         </svg>
                                     </button>
-                                    <button class="btn btn-icon btn-outline-danger-icon">
+                                    <button class="btn btn-icon btn-outline-danger">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2">
                                             <polyline points="3 6 5 6 21 6" />
                                             <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
@@ -406,81 +500,6 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td class="theme-td-styled table-first-col">MD AL AMIN</td>
-                            <td class="theme-td-styled table-second-col">alamin.nava@gmail.com</td>
-                            <td class="theme-td-styled table-third-col">Polyuno.com</td>
-                            <td class="theme-td-styled table-four-col">Executive Chef Marina Bay Sands</td>
-                            <td class="table-five-col">
-                                <!-- Default dropstart button -->
-                                <div class="dropstart text-end">
-                                    <button type="button" class="bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                            <circle cx="12" cy="12" r="1" />
-                                            <circle cx="12" cy="5" r="1" />
-                                            <circle cx="12" cy="19" r="1" />
-                                        </svg>
-                                    </button>
-                                    <ul class="dropdown-menu p-0">
-                                        <!-- Dropdown menu links -->
-                                        <li class="dropstart-item">Delete</li>
-                                        <li class="dropstart-item">Move</li>
-                                        <li class="dropstart-item">Move</li>
-                                        <li class="dropstart-item">Move</li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="theme-td-styled table-first-col">MD AL AMIN</td>
-                            <td class="theme-td-styled table-second-col">alamin.nava@gmail.com</td>
-                            <td class="theme-td-styled table-third-col">Polyuno.com</td>
-                            <td class="theme-td-styled table-four-col">Executive Chef Marina Bay Sands</td>
-                            <td class="table-five-col">
-                                <!-- Default dropstart button -->
-                                <div class="dropstart text-end">
-                                    <button type="button" class="bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                            <circle cx="12" cy="12" r="1" />
-                                            <circle cx="12" cy="5" r="1" />
-                                            <circle cx="12" cy="19" r="1" />
-                                        </svg>
-                                    </button>
-                                    <ul class="dropdown-menu p-0">
-                                        <!-- Dropdown menu links -->
-                                        <li class="dropstart-item">Delete</li>
-                                        <li class="dropstart-item">Move</li>
-                                        <li class="dropstart-item">Move</li>
-                                        <li class="dropstart-item">Move</li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="theme-td-styled table-first-col">MD AL AMIN</td>
-                            <td class="theme-td-styled table-second-col">alamin.nava@gmail.com</td>
-                            <td class="theme-td-styled table-third-col">Polyuno.com</td>
-                            <td class="theme-td-styled table-four-col">Executive Chef Marina Bay Sands</td>
-                            <td class="table-five-col">
-                                <!-- Default dropstart button -->
-                                <div class="dropstart text-end">
-                                    <button type="button" class="bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical">
-                                            <circle cx="12" cy="12" r="1" />
-                                            <circle cx="12" cy="5" r="1" />
-                                            <circle cx="12" cy="19" r="1" />
-                                        </svg>
-                                    </button>
-                                    <ul class="dropdown-menu p-0">
-                                        <!-- Dropdown menu links -->
-                                        <li class="dropstart-item">Delete</li>
-                                        <li class="dropstart-item">Move</li>
-                                        <li class="dropstart-item">Move</li>
-                                        <li class="dropstart-item">Move</li>
-                                    </ul>
-                                </div>
-                            </td>
-                        </tr>
                         <tr>
                             <td class="theme-td-styled table-first-col">MD AL AMIN</td>
                             <td class="theme-td-styled table-second-col">alamin.nava@gmail.com</td>
